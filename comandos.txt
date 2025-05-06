@@ -21,5 +21,9 @@ git commit -m "merge de feature-1 na main"
 git checkout -b add-comandos
 touch comandos.txt
 git remote add origin-atividade https://github.com/usrjair0/atividade2-git.git
+git add comandos.txt
+git commit -m "adicionado comandos utilizados para realizacao da atividade"
+git add comandos.txt
+git commit -m "adicionado mais comandos utilizados para realizacao da atividade"
 git push origin-atividade main
 git push origin-atividade add-comandos
