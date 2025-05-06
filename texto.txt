@@ -1,1 +1,1 @@
-algarismos decimais - 0123456789
+algarismos hexadecimais - 0123456789ABCDEF
