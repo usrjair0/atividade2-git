@@ -1,1 +1,3 @@
 algarismos binarios 01
+algarismos hexadecimais - 0123456789ABCDEF
+
