@@ -1,0 +1,27 @@
+Jairo da Silva sobrinho Junior
+comandos utilizados:
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead.git
+cd curso-branchs-ifrn-ead
+touch texto.txt
+cat >> texto.txt
+algarismos decimais - 0123456789
+git add texto.txt
+git commit -m "adiciona arquivo texto.txt com algarismos decimais de conteúdo"
+git checkout -b feature-1
+echo "algarismos hexadecimais - 0123456789ABCDEF" > texto.txt
+git add texto.txt
+git commit -m "altera conteúdo de texto.txt - algarismos hexadecimais"
+git checkout main
+echo "algarismos binarios 01" > texto.txt
+git add texto.txt
+git commit -m "altera conteúdo de texto.txt - algarismos binários"
+git merge feature-1
+git add texto.txt
+git commit -m "merge de feature-1 na main"
+git checkout -b add-comandos
+touch comandos.txt
+git remote add origin-atividade https://github.com/usrjair0/atividade2-git.git
+git add comandos.txt
+git commit -m "adicionado comandos utilizados para realizacao da atividade"
+git push origin-atividade main
+git push origin-atividade add-comandos
